@@ -68,7 +68,7 @@ h2 {
 }
 
 header p {
-    line-height: 5px;
+    line-height: 35px;
     padding: 15px;
 }
 
@@ -119,7 +119,7 @@ li a:hover{
 }
 
 .shadow:hover{
-    box-shadow:0px 0px 20px 5px rgb(17, 0, 255);
+    box-shadow:0px 0px 30px 5px rgb(17, 0, 255);
 
 }
 
@@ -172,16 +172,20 @@ li a:hover{
     border: 0px;
     font-size: 15px;
     color: white;
-    margin-top: 32px;
+    text-decoration: none;
+
 }
 
+.button3:hover{
+    box-shadow:0px 0px 50px 5px rgb(117, 117, 117);
+}
 /* Fine Header */
 
 
 /* Main */
 
 main div{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .content {
@@ -206,7 +210,7 @@ section {
 }
 
 .image {
-    width: 70%;
+    width: 60%;
 }
 
 .image-star {
@@ -249,11 +253,15 @@ footer {
 /* Flag */
 
 footer div .contenitore {
-    height: 100px;
+    line-height: 20px;
 }
 
 footer li {
     color: #ffffff;
+}
+
+footer ol{
+    list-style: none;
 }
 
 .footer-flex {
@@ -281,6 +289,8 @@ footer button {
 
 .bottom-border {
     border-bottom: 1px solid #F6F6F6;
+    padding-top: 17px;
+    padding-bottom: 22px;
 }
 
 #end-footer {
