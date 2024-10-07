@@ -118,26 +118,23 @@ li a:hover{
     text-decoration: none;
 }
 
-.accesso:hover{
+.shadow:hover{
     box-shadow:0px 0px 20px 5px rgb(17, 0, 255);
 
 }
 
+/* Header Second container */
 
+#header-buttons{
+    margin-top: 30px;
+    display: inline-block;
+    justify-content: center;
+    gap: 25px;
+    display: flex
 
-/* Bottoni */
-
-.nav-button {
-    background-color: white;
-    font-size: 15px;
-    border: 0;
-    width: 70px;
-    border-radius: 30px;
-    padding: 8px;
 }
 
 .button {
-    text-align: center;
     padding: 10px 10px;
     display: flex;
     justify-content: center;
@@ -146,25 +143,27 @@ li a:hover{
 
 
 .button1 {
+    padding: 15px 10px;
     border-radius: 50px;
     color: #000000;
     background-color: #ffffff;
     border: 0;
     width: 180px;
-    height: 40px;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .button2 {
+    padding: 15px 25px;
     border-radius: 50px;
     color: #000000;
     background-color: #ffffff;
     border: 0;
     width: 230px;
-    height: 40px;
     font-size: 15px;
     background-color: #23272A;
     color: white;
+    text-decoration: none;
 }
 
 .button3 {
@@ -174,10 +173,6 @@ li a:hover{
     font-size: 15px;
     color: white;
     margin-top: 32px;
-}
-
-.gap {
-    gap: 15px;
 }
 
 /* Fine Header */
@@ -197,7 +192,7 @@ main div{
 
 
 section {
-    max-width: 60%;
+    max-width: 100%;
     margin: 0% auto;
 }
 
