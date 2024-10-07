@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.flex{
+    display: flex;
+   justify-content: space-around;
+}
+
+.Header-bg{
+background-color: #23272a;
+}
+
+.gap-text{
+    gap: 15px;
+    list-style: none;
+}
+
+li a{
+    color: white;;
+}
+
+header div{
+    padding: 20px 0;
+}
+
