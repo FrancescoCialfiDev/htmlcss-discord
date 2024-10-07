@@ -53,13 +53,7 @@ h1 {
 }
 
 /* Formattazione Testo */
-
-li {
-    list-style: none;
-    padding: 15px 20px;
-    color: white;
-}
-
+    
 
 section p {
     color: white;
@@ -85,10 +79,28 @@ main p {
 
 }
 
-/** Inizio Header**/
+/**Header Barra Navigazione**/
 
 .navigation-bar {
     background-color: #255EE9;
+}
+
+header li {
+    list-style: none;
+    padding: 15px 20px;
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+    background-color: #171bf9ea;
+    box-shadow:0px 0px 20px 5px rgb(17, 0, 255);
+    
 }
 
 .bgimage {
@@ -97,6 +109,21 @@ main p {
     background-repeat: no-repeat;
     height: 659px;
 }
+
+.accesso{
+    background-color: white;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.accesso:hover{
+    box-shadow:0px 0px 20px 5px rgb(17, 0, 255);
+
+}
+
+
 
 /* Bottoni */
 
